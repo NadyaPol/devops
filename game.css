@@ -1,0 +1,100 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+#game {
+  background-color: orange;
+  max-width: 1100px;
+  margin: 50px auto;
+
+  padding: 60px;
+}
+
+#gameCaption {
+  background-color: red;
+  padding: 10px;
+
+  color: azure;
+  font-size: 20px;
+}
+
+#map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.gameCaption-name {
+  font-weight: bold;
+}
+
+.gameCaption-status {
+  background-color: rgb(222, 135, 179);
+  color: black;
+  padding: 5px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+}
+
+.game-timer-ok {
+  font-size: 35px;
+  text-align: center;
+  display: block;
+  padding: 15px 0;
+  color: black;
+}
+
+#team1 {
+  border: 5px solid blue;
+  background-color: aqua;
+}
+
+#team1,
+#team2 {
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#team1Caption {
+  background-color: yellow;
+  padding: 3px;
+  display: block;
+  border-radius: 15px;
+}
+
+.teamLives,
+.teamCoins {
+  display: flex;
+  justify-content: space-between;
+}
+
+#team1Stats,
+#team2Stats {
+  margin: 10px 0;
+}
+
+#team1Users,
+#team2Users {
+  font-weight: bold;
+}
+
+#team2 {
+  border: 5px solid rgb(4, 78, 20);
+  background-color: rgb(208, 248, 28);
+}
+
+#team2Caption {
+  background-color: darkkhaki;
+  padding: 3px;
+  display: block;
+  border-radius: 15px;
+}
+
+.game-btn {
+  margin-bottom: 10px;
+}
